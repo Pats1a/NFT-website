@@ -1,0 +1,811 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background-color: #2B2B2B;
+}
+
+header{
+    width: 1280px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 1280px;
+    height: 100px;
+    background: #2B2B2B;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.logo{
+    width: 250px;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-item h4{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-item h4:hover{
+    color: #A259FF;
+}
+
+.sign-up {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    padding: 19px 30px 19px 30px;
+    background-color: #A259FF;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.sign-up:hover{
+    background-color: #4804a0;
+}
+
+.sign-up h5{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.sign-up img{
+    margin-top: 1.5px;
+}
+
+.first-page{
+    width: 1280px;
+    height: 704px;
+    background-color: #2B2B2B;
+}
+
+.first-page-frame{
+    width: 1050px;
+    height: 544px;
+    padding: 80px 115px 80px 115px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.frame-text{
+    width: 510px;
+    height: 544px;
+}
+
+.frame-text h1{
+    font-size: 68px;
+    color: white;
+}
+
+.frame-text p{
+    font-size: 22px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    line-height: 160%;
+}
+
+.get-started{
+    display: flex;
+    flex-direction: row;
+    background-color: #A259FF;
+    border: none;
+    gap: 10px;
+    color: white;
+    border-radius: 20px;
+    padding: 19px 50px 19px 50px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.get-started:hover{
+    background-color: #4804a0;
+}
+
+.get-started h4{
+    margin-top: 2px;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+    margin-top: 30px;
+}
+
+.quantity h2{
+    font-size: 28px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+.quantity h4{
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.frame-image{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    height: 510px;
+}
+
+.frame-image-item{
+    width: 510px;
+    height: 401px;
+}
+
+.frame-image-name{
+    background-color: #3B3B3B;
+    font-size: 22px;
+    height: 109px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+    color: white;
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.author h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.second-page{
+    background-color: #2B2B2B;
+    width: 1280px;
+    height: 836px;
+    padding: 80px 115px 80px 115px;
+}
+
+.second-page-text{
+    width: 1046px;
+    height: 91px;
+}
+
+.second-page-text h1{
+    font-size: 38px;
+    color: white;
+}
+
+.second-page-text h2{
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.collection{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 1050px;
+    height: 525px;
+    margin-top: 60px;
+}
+
+.first-collection{
+    width: 330px;
+    height: 445px;
+}
+
+.first-collection-item{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.purple-box{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #A259FF;
+    width: 100px;
+    height: 100px;
+    padding: 32.5px 16px 32.5px 16px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.purple-box:hover{
+    background-color: #4804a0;
+}
+
+.purple-box h1{
+    font-family: 'Space Mono', monospace;
+}
+
+.first-collection-author{
+    width: 330px;
+    height: 65px;
+    margin-top: 15px;
+    color: white;
+}
+
+.top-artists{
+    width: 1280px;
+    height: 1085px;
+    background-color: #2B2B2B;
+    padding: 80px 115px 80px 115px;
+}
+
+.top-artists-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1050px;
+    height: 91px;
+}
+
+.top-artists-text h1{
+    font-size: 38px;
+    color: white;
+}
+
+.top-artists-text h2{
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.top-artists-text button{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+    background-color: #2B2B2B;
+    border: 2px solid #A259FF;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    height: 60px;
+}
+
+.artist-card-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1050px;
+    height: 774px;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.grid-item{
+    width: 240px;
+    height: 238px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.grid-item-image{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 120px;
+}
+
+.ranking-number{
+    width: 30px;
+    height: 30px;
+}
+
+.grid-item-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.grid-item-text h1{
+    color: white;
+}
+
+.grid-item-text h3{
+    font-size: 16px;
+    color: #858584;
+    font-weight: 400;
+}
+
+.grid-item-text h3 span{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    color: white;
+}
+
+.browse-categories{
+    width: 1280px;
+    height: 928px;
+    background-color: #2B2B2B;
+    padding: 80px 115px 80px 115px;
+}
+
+.browse-categories-text{
+    color: white;
+    font-size: 38px;
+}
+
+.category-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    width: 1050px;
+    height: 662px;
+    margin-top: 60px;
+}
+
+.category-grid-item{
+    width: 240px;
+    height: 316px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.category-grid-item-image{
+    width: 240px;
+    height: 240px;
+}
+
+.category-grid-item-name{
+    color: white;
+    padding: 20px 30px 25px 30px;
+}
+
+.discover-more{
+    width: 1280px;
+    height: 780px;
+    background-color: #2B2B2B;
+    padding: 80px 115px 80px 115px;
+}
+
+.discover-more-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1050px;
+    height: 91px;
+}
+
+.discover-text h1{
+    color: white;
+    font-size: 38px;
+}
+
+.discover-text h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.discover-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 763px;
+}
+
+.discover-more-text button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: #2B2B2B;
+    border: #A259FF 2px solid;
+    border-radius: 20px;
+    padding: 25px 50px 25px 50px;
+    margin-top: 30px;
+}
+
+.nft-card-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 1050px;
+    height: 469px;
+    margin-top: 60px;
+}
+
+.card-image{
+    width: 330px;
+    height: 296px;
+}
+
+.card-name{
+    width: 330px;
+    height: 173px;
+    background-color: #3B3B3B;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 30px 20px 30px;
+}
+
+.card-name h1{
+    color: white;
+}
+
+.card-author{
+    width: 270px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.card-author h4{
+    font-weight: 400;
+    color: white;
+}
+
+.card-prices{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 270px;
+    height: 43px;
+    margin-top: 27px;
+}
+
+.price-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-text h5{
+    color: #858584;
+    font-family: 'Space Mono', monospace;
+}
+
+.price-number{
+    width: 270px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-number h3{
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.text-appear{
+    display: none;
+}
+.burger-menu{
+    display: none;
+}
+
+.appearing-image{
+    display: none;
+}
+
+.see-all{
+    display: none;
+}
+
+@media only screen and (max-width: 834px) {
+    .nav-item{
+        display: none;
+    }
+    .robot-cards{
+        display: none;
+    }
+    .collection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 1050px;
+        height: 525px;
+        margin-top: 10px;
+    }
+    #dog-image{
+        width: 400px;
+        height: 400px;
+    }
+    #mushroom-image{
+        width: 400px;
+        height: 400px;
+    }
+    .first-collection-item{
+        gap: 48px;
+    }
+    .grid-item-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 90px;
+        width: 90px;
+    }
+    .grid-item{
+        display: flex;
+        align-items: center;
+        width: 430px;
+        height: 150px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 20px 20px 20px 20px;
+    }
+    .grid-item-text{
+        display: none;
+    }
+    .item-disappear{
+        display: none;
+    }
+    .text-appear{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 10px;
+    }
+    .text-appear h1{
+        font-size: 28px;
+    }
+    .text-appear h3{
+        font-size: 22px;
+        width: 270px;
+    }
+    .artist-card-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 604px;
+        height: 474px;
+        margin-top: 30px;
+        margin-left: 7%;
+        gap: 30px;
+    }
+    .top-artists{
+        height: 800px;
+    }
+    .card-disappear{
+        display: none;
+    }
+    .discover-more{
+        height: 900px;
+    }
+    .nft-card-row{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        margin-left: 40px;
+    }
+    .card-name{
+        width: 450px;
+        margin-top: 100px;
+    }
+    .card-image img{
+        width: 450px;
+    }
+    .burger-menu{
+        display: flex;
+        background-color: #2B2B2B;
+        border: none;
+        transition: 0.5s;
+    }
+    .burger-menu-image{
+        width: 50px;
+        height: 50px;
+    }
+    .burger-menu:hover{
+        background-color: #A259FF;
+        border-radius: 60px;
+    }
+}
+
+.bottom-button{
+    display: none;
+}
+
+.div-disappear{
+    display: none;
+}
+
+@media only screen and (max-width: 375px){
+    .first-page{
+        height: 1200px;
+    }
+    .first-page-frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .frame-image{
+        display: none;
+    }
+    .appearing-image{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .frame-text{
+        width: 700px;
+    }
+    .get-started{
+        padding: 25px 150px 25px 150px;
+        margin-left: 100px;
+    }
+    .get-started h4{
+        font-size: 30px;
+    }
+    .get-started img{
+        width: 40px;
+        height: 40px;
+    }
+    .quantity{
+        margin-left: 80px;
+    }
+    .quantity h2{
+        font-size: 40px;
+    }
+    .quantity h4{
+        font-size: 25px;
+    }
+    .mushroom-cards{
+        display: none;
+    }
+    .second-page{
+        height: 1100px;
+    }
+    #dog-image{
+        width: 600px;
+        height: 600px;
+    }
+    #cat-image{
+        width: 270px;
+        height: 170px;
+    }
+    #bear-image{
+        width: 270px;
+        height: 170px;
+    }
+    .purple-box{
+        display: flex;
+        padding: 80px 80px 80px 80px;
+    }
+    .purple-box h1{
+        font-size: 32px;
+        margin-left: -37px;
+    }
+    .first-collection{
+        margin-right: 300px;
+    }
+    .first-collection-author{
+        width: 400px;
+
+    }
+    .first-collection-author h2{
+        font-size: 50px;
+    }
+    .mister-fox{
+        width: 50px;
+        height: 50px;
+    }
+    #mister-fox{
+        font-size: 20px;
+    }
+    .top-artists{
+        height: 1300px;
+    }
+    .fox-disappear{
+        display: none;
+    }
+    .artist-card-grid{
+        grid-template-columns: auto;
+    }
+    .grid-item{
+        margin-top: 30px;
+        margin-left: 150px;
+        width: 600px;
+    }
+    .browse-categories{
+        height: 1500px;
+    }
+    .category-grid{
+        margin-left: -250px;
+        grid-template-columns: auto auto;
+    }
+    .move-left{
+        margin-left: 500px;
+    }
+    .div-disappear{
+        display: flex;
+    }
+    .top-artists-text button{
+        display: none;
+    }
+    .bottom-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 200px;
+        gap: 15px;
+        background-color: #2B2B2B;
+        border: 2px solid #A259FF;
+        color: white;
+        margin-left: 250px;
+        border-radius: 20px;
+        font-size: 26px;
+        height: 60px;
+    }
+    .card-disappear{
+        display: flex;
+        flex-direction: column;
+    }
+    .nft-card-row{
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+    }
+    .discover-more{
+        height: 2300px;
+    }
+    .see-all{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        background-color: #2B2B2B;
+        border: 2px #A259FF solid;
+        color: white;
+        width: 400px;
+        padding: 20px 0px 20px 0px;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+    .eye{
+        width: 40px;
+        height: 40px;
+    }
+    .card{
+        width: 500px;
+    }
+    .discover-more-text button{
+        display: none;
+    }
+    .nft-card-row{
+        width: 400px;
+    }
+}
